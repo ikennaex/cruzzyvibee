@@ -1,0 +1,17 @@
+.musicpage-cover img {
+    /* height: 450px; */
+    max-width: 300px;
+}
+
+.musiccovertop {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.musicpage-cover p {
+    font-size: 20px;
+    font-weight: 700;
+}
