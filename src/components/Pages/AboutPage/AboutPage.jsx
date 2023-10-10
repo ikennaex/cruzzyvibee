@@ -45,7 +45,7 @@ const AboutPage = () => {
         <img src= {vibe1} alt="cruzzyvibee" />
         <img src= {vibe4} alt="cruzzyvibee" />
         <img src= {vibe5} alt="cruzzyvibee" />
-        <img src= {vibe6} alt="cruzzyvibee" />
+        <img className='wide-vibe6' src= {vibe6} alt="cruzzyvibee" />
       </div>
     </div>
     </>
