@@ -60,7 +60,7 @@ const Homepage = () => {
         <h2>ABOUT</h2>
       <div className="aboutsectiondivs">
         <div className="aboutsectionimg-div">
-          <img src= {vibe1} alt="" />
+          <img src= {vibe3} alt="" />
         </div>
 
         <div className="abouttext-div">
