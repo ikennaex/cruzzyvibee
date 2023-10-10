@@ -1,0 +1,47 @@
+.musicplay-section {
+    padding: 30px;
+}
+
+.songdetails img {
+    /* height: 450px; */
+    max-width: 350px;
+}
+
+.songdetails p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.musicplaydiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.musicplay-links p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 15px 0px;
+    width: 250px;
+    border-radius: 20px 0px;
+}
+
+.musicplay-links img {
+    height: 30px;
+}
+
+.audiomack {
+    width: 35px;
+}
+
+.musicplay-links div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
