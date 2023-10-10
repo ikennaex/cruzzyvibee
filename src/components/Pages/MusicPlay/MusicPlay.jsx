@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./musicplay.css"
-import {spotify, youtube, deezer, tidal, applemusic, amazon, audiomack} from "./musicplayImports"
+import {spotify, youtube, deezer, tidal, applemusic, amazon, audiomack, pandora} from "./musicplayImports"
 import {cover, dance, mancover, superman} from "../../Homepage/homepageimports"
 import { useParams } from 'react-router'
 
@@ -80,7 +80,7 @@ const MusicPlay = () => {
             <a href= {musiclist.audiomack} target='_blank' > <div> <img className='audiomack' src= {audiomack} alt="" /> <p>Listen on Audiomack</p> </div> </a>
             <a href= {musiclist.amazon} target='_blank' > <div> <img src= {amazon} alt="" /> <p>Listen on Amazon</p> </div> </a>
             <a href={musiclist.deezer} target='_blank' > <div> <img src= {deezer} alt="" /> <p>Listen on Deezer</p> </div> </a>
-            <a href= {musiclist.pandora} target='_blank' > <div> <img src= {tidal} alt="" /> <p>Listen on Pandora</p> </div> </a>
+            <a href= {musiclist.pandora} target='_blank' > <div> <img src= {pandora} alt="" /> <p>Listen on Pandora</p> </div> </a>
             <a href= {musiclist.youtube} target='_blank' > <div> <img src= {youtube} alt="" /> <p>Listen on Youtube</p> </div> </a>
             
         </div>
