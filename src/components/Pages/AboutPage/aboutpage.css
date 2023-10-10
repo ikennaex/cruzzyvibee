@@ -47,6 +47,10 @@
     .wide-vibe6 {
         width: 100%;
     }
+
+    .wide-vibe5 {
+        width: 115%;
+    }
   }
 
 @media screen and (max-width: 600px) {

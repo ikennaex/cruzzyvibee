@@ -292,4 +292,8 @@
     .about-section {
         padding: 30px 30px;
     }
+
+    .abouttext-div p {
+        font-size: 16px;
+    }
   }
