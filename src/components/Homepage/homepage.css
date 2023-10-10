@@ -31,10 +31,6 @@
     font-size: 50px;
     line-height: 50px;
     color: #FFF;
-
-	-webkit-animation: scale-in-hor-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: scale-in-hor-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
 }
 
 .homepage-outnow {

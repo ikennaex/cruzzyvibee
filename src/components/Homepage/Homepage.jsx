@@ -5,6 +5,8 @@ import LatestReleases from "./LatestReleases";
 import Videos from "./Videos";
 import { Link } from "react-router-dom";
 import {BsPlayCircleFill} from "react-icons/bs"
+import TypeWriterEffect from 'react-typewriter-effect';
+
 
 const Homepage = () => {
   const [musicList, setMusicList] = useState([
@@ -35,7 +37,16 @@ const Homepage = () => {
       <div className="img-container">
         <img className="homepage-img" src={vibe2} alt="" />
         <div className="homepage-textoverlay">
-          <h2>Just Getting Started</h2>
+          <h2>
+          <TypeWriterEffect
+            textStyle={{ fontFamily: 'Manrope', fontSize: "50px", fontWeight: "900" }}
+            startDelay={100}
+            cursorColor="white"
+            text="Just Getting Started"
+            typeSpeed={200}
+            hideCursorAfterText = {true}
+          />
+          </h2>
           <p className="homepage-outnow fadein">OUT NOW</p>
 
           <Link to="music/justgettingstarted">
