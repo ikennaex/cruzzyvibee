@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <p>© {date} Cruzzy Vibee. All Rights Reserved</p>
-        <p>crafted by <a href='https://www.instagram.com/motivoinc/'> <span className='motivo'> motivo </span> </a> </p>
+        <p>crafted by <a href='https://www.instagram.com/motivoinc/' target='_blank'> <span className='motivo'> motivo </span> </a> </p>
         
     </div>
   )

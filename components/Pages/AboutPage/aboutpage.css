@@ -1,0 +1,41 @@
+.aboutpage-maindiv {
+    display: flex;
+    padding: 20px 30px;
+    gap: 40px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutpage-imgdiv img {
+    max-height: 500px;
+    filter: grayscale(100%);
+
+}
+
+.aboutpage-textdiv {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.gallery-maindiv {
+    padding: 20px 30px;
+}
+
+.galleyimg-div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleyimg-div img{
+    max-height: 500px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 850px) {
+    .aboutpage-maindiv {
+        flex-wrap: wrap;
+    }
+  }
