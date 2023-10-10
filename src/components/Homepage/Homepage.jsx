@@ -86,7 +86,11 @@ const Homepage = () => {
             and styles that my music has to offer”.
           </p>
         </div>
+
       </div>
+      <Link to= "/about">
+        <button className="viewmorebtn">View More</button>
+      </Link>
 
       </div>
 

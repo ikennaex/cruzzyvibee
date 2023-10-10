@@ -36,12 +36,12 @@ const MusicPlay = () => {
             id: "dance",
             title: "Dance",
             image: dance,
-            spotify: "https://open.spotify.com/album/7bSCq1Crlh263nHPqv21CD",
-            audiomack: "https://audiomack.com/cruzzyvibee/song/man",
-            applemusic: "https://music.apple.com/us/album/m-a-n-single/1684531439",
-            amazon: "https://music.amazon.com/albums/B0C3J5NXPH",
-            deezer: "https://www.deezer.com/us/album/434045157?deferredFl=1",
-            pandora: "https://www.pandora.com/artist/cruzzy-vibee/just-getting-started/AL4g53vdrXPpJ7w",
+            spotify: "https://open.spotify.com/artist/5cDsFEqF4ogLS6spA8nIpv",
+            audiomack: "https://audiomack.com/cruzzyvibee/song/dance",
+            applemusic: "https://music.apple.com/us/artist/cruzzy-vibee/1633596539",
+            amazon: "https://music.amazon.com/artists/B0B621DD97/cruzzy-vibee",
+            deezer: "https://www.deezer.com/us/artist/175844517?deferredFl=1",
+            pandora: "https://www.pandora.com/artist/cruzzy-vibee/AR2PJjvlmg3pbl9",
             youtube: "https://www.youtube.com/@cruzzyvibee"
         },
 
@@ -49,12 +49,12 @@ const MusicPlay = () => {
             id: "superman",
             title: "Superman",
             image: superman,
-            spotify: "https://open.spotify.com/album/7bSCq1Crlh263nHPqv21CD",
-            audiomack: "https://audiomack.com/cruzzyvibee/song/man",
-            applemusic: "https://music.apple.com/us/album/m-a-n-single/1684531439",
-            amazon: "https://music.amazon.com/albums/B0C3J5NXPH",
-            deezer: "https://www.deezer.com/us/album/434045157?deferredFl=1",
-            pandora: "https://www.pandora.com/artist/cruzzy-vibee/just-getting-started/AL4g53vdrXPpJ7w",
+            spotify: "https://open.spotify.com/artist/5cDsFEqF4ogLS6spA8nIpv",
+            audiomack: "https://audiomack.com/cruzzyvibee/song/superman",
+            applemusic: "https://music.apple.com/us/artist/cruzzy-vibee/1633596539",
+            amazon: "https://music.amazon.com/artists/B0B621DD97/cruzzy-vibee",
+            deezer: "https://www.deezer.com/us/artist/175844517?deferredFl=1",
+            pandora: "https://www.pandora.com/artist/cruzzy-vibee/AR2PJjvlmg3pbl9",
             youtube: "https://www.youtube.com/@cruzzyvibee"
         }
     ])
