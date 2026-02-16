@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./homepage.css";
-import { mancover, cover, dance, vibe1, vibe3, vibe2 } from "./homepageimports.js";
+import { mancover, cover, dance, vibe1, vibe2 } from "./homepageimports.js";
 import LatestReleases from "./LatestReleases";
 import Videos from "./Videos";
 import { Link } from "react-router-dom";

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./musicplay.css"
-import {spotify, youtube, deezer, tidal, applemusic, amazon, audiomack, pandora} from "./musicplayImports"
+import {spotify, youtube, deezer, applemusic, amazon, audiomack, pandora} from "./musicplayImports"
 import {cover, dance, mancover, superman} from "../../Homepage/homepageimports"
 import { useParams } from 'react-router'
 
@@ -75,13 +75,13 @@ const MusicPlay = () => {
         </div>
 
         <div className='musicplay-links'>
-            <a href={musiclist.spotify} target='_blank' > <div> <img src={spotify} alt="" /> <p>Listen on Spotify</p> </div> </a>
-            <a href={musiclist.applemusic} target='_blank' > <div> <img src= {applemusic} alt="" /> <p>Listen on Apple Music</p> </div> </a>
-            <a href= {musiclist.audiomack} target='_blank' > <div> <img className='audiomack' src= {audiomack} alt="" /> <p>Listen on Audiomack</p> </div> </a>
-            <a href= {musiclist.amazon} target='_blank' > <div> <img src= {amazon} alt="" /> <p>Listen on Amazon</p> </div> </a>
-            <a href={musiclist.deezer} target='_blank' > <div> <img src= {deezer} alt="" /> <p>Listen on Deezer</p> </div> </a>
-            <a href= {musiclist.pandora} target='_blank' > <div> <img src= {pandora} alt="" /> <p>Listen on Pandora</p> </div> </a>
-            <a href= {musiclist.youtube} target='_blank' > <div> <img src= {youtube} alt="" /> <p>Listen on Youtube</p> </div> </a>
+            <a href={musiclist.spotify} rel="noreferrer" target='_blank' > <div> <img src={spotify} alt="" /> <p>Listen on Spotify</p> </div> </a>
+            <a href={musiclist.applemusic} rel="noreferrer" target='_blank' > <div> <img src= {applemusic} alt="" /> <p>Listen on Apple Music</p> </div> </a>
+            <a href= {musiclist.audiomack} rel="noreferrer" target='_blank' > <div> <img className='audiomack' src= {audiomack} alt="" /> <p>Listen on Audiomack</p> </div> </a>
+            <a href= {musiclist.amazon} rel="noreferrer" target='_blank' > <div> <img src= {amazon} alt="" /> <p>Listen on Amazon</p> </div> </a>
+            <a href={musiclist.deezer} rel="noreferrer" target='_blank' > <div> <img src= {deezer} alt="" /> <p>Listen on Deezer</p> </div> </a>
+            <a href= {musiclist.pandora} rel="noreferrer" target='_blank' > <div> <img src= {pandora} alt="" /> <p>Listen on Pandora</p> </div> </a>
+            <a href= {musiclist.youtube} rel="noreferrer" target='_blank' > <div> <img src= {youtube} alt="" /> <p>Listen on Youtube</p> </div> </a>
             
         </div>
         </>

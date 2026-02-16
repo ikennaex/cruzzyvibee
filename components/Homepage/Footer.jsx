@@ -17,15 +17,15 @@ const Footer = () => {
         <p> Vibeenation01@gmail.com </p>
 
         <div className='music-logos'>
-          <a href="https://youtube.com/@cruzzyvibee?si=tTDBnRGnR6AXIieh" target='_blank'> <AiFillYoutube size={30} /> </a>
-          <a href="https://instagram.com/cruzzywiththavibe?igshid=MzRlODBiNWFlZA==" target='_blank'> <BsInstagram size={30} /> </a>
-          <a href="https://www.tiktok.com/@cruzzyvibee?_t=8gF8pzEzd1u&_r=1" target='_blank' > <FaTiktok size={30} /> </a>
-          <a href="https://spotify.link/uIjTx4VrDDb" target='_blank' > <BsSpotify size={30} /> </a>
-          <a href="https://music.apple.com/us/artist/cruzzy-vibee/1633596539" target='_blank' > <SiApplemusic size={30} /> </a>
-          <a href="https://audiomack.com/cruzzyvibee" target='_blank' > <SiAudiomack size={30} /> </a>
-          <a href="https://deezer.page.link/819y1ZMCE9dnFsGF8" target='_blank' > <SiDeezer size={30} /> </a>
-          <a href="https://music.amazon.com/artists/B0B621DD97?ref=dm_sh_XfH2Ec8fVNuWKaAuGV7dgd7YJ" target='_blank' > <SiAmazon size={30} /> </a>
-          <a href="https://pandora.app.link/CJiA9ZisDDb" target='_blank' > <SiPandora size={30} /> </a>
+          <a href="https://youtube.com/@cruzzyvibee?si=tTDBnRGnR6AXIieh" rel="noreferrer" target='_blank'> <AiFillYoutube size={30} /> </a>
+          <a href="https://instagram.com/cruzzywiththavibe?igshid=MzRlODBiNWFlZA==" rel="noreferrer" target='_blank'> <BsInstagram size={30} /> </a>
+          <a href="https://www.tiktok.com/@cruzzyvibee?_t=8gF8pzEzd1u&_r=1" rel="noreferrer" target='_blank' > <FaTiktok size={30} /> </a>
+          <a href="https://spotify.link/uIjTx4VrDDb" rel="noreferrer" target='_blank' > <BsSpotify size={30} /> </a>
+          <a href="https://music.apple.com/us/artist/cruzzy-vibee/1633596539" rel="noreferrer" target='_blank' > <SiApplemusic size={30} /> </a>
+          <a href="https://audiomack.com/cruzzyvibee" rel="noreferrer" target='_blank' > <SiAudiomack size={30} /> </a>
+          <a href="https://deezer.page.link/819y1ZMCE9dnFsGF8" rel="noreferrer" target='_blank' > <SiDeezer size={30} /> </a>
+          <a href="https://music.amazon.com/artists/B0B621DD97?ref=dm_sh_XfH2Ec8fVNuWKaAuGV7dgd7YJ" rel="noreferrer" target='_blank' > <SiAmazon size={30} /> </a>
+          <a href="https://pandora.app.link/CJiA9ZisDDb" rel="noreferrer" target='_blank' > <SiPandora size={30} /> </a>
         
         
           
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <p>© {date} Cruzzy Vibee. All Rights Reserved</p>
-        <p>crafted by <a href='https://www.instagram.com/motivoinc/' target='_blank'> <span className='motivo'> motivo </span> </a> </p>
+        <p>crafted by <a href='https://www.instagram.com/xmotivotech/' rel="noreferrer" target='_blank'> <span className='motivo'> motivo </span> </a> </p>
         
     </div>
   )
