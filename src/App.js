@@ -6,10 +6,12 @@ import Music from "./components/Pages/Music/Music";
 import MusicPlay from "./components/Pages/MusicPlay/MusicPlay";
 import MissingPage from "./components/Pages/MissingPage/MissingPage";
 import AboutPage from "./components/Pages/AboutPage/AboutPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element= {<Homepage />} />

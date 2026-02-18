@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 import "./music.css"
-import {cover, dance, mancover, superman} from "../../Homepage/homepageimports"
+import {cover, dance, mancover, shayo, superman} from "../../Homepage/homepageimports"
 import MusicCover from './Musiccover/MusicCover'
 import MusicPlay from '../MusicPlay/MusicPlay'
 
 const Music = () => {
     const [musicList, setMusicList] = useState([
+        {
+            id: "shayo",
+            cover: shayo,
+            title: "Shayo", 
+        },
         {
             id: "justgettingstarted",
             cover: cover,

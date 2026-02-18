@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 import "./homepage.css";
-import { mancover, cover, dance, vibe1, vibe2 } from "./homepageimports.js";
+import { mancover, cover, dance, vibe1, vibe2, cruzzy1 } from "./homepageimports.js";
 import LatestReleases from "./LatestReleases";
 import Videos from "./Videos";
 import { Link } from "react-router-dom";
 import {BsPlayCircleFill} from "react-icons/bs"
 import TypeWriterEffect from 'react-typewriter-effect';
+import { shayo } from "../../src/components/Homepage/homepageimports.js";
 
 
 const Homepage = () => {
   const [musicList, setMusicList] = useState([
+    { 
+      id: "shayo",
+      title: "Shayo", 
+      cover: shayo,
+      type: "Song"
+    },
     { 
       id: "justgettingstarted",
       title: "Just Getting Started", 
@@ -35,7 +42,7 @@ const Homepage = () => {
   return (
     <div>
       <div className="img-container">
-        <img className="homepage-img" src={vibe2} alt="" />
+        <img className="homepage-img" src={cruzzy1} alt="" />
         <div className="homepage-textoverlay">
           <h2>
           <TypeWriterEffect
@@ -60,7 +67,7 @@ const Homepage = () => {
         <h2>ABOUT</h2>
       <div className="aboutsectiondivs">
         <div className="aboutsectionimg-div">
-          <img src= {vibe1} alt="" />
+          <img src= {cruzzy1} alt="" />
         </div>
 
         <div className="abouttext-div">
@@ -101,7 +108,6 @@ const Homepage = () => {
 
         <div className="latest-songs">
           {musicList.map((list) => {
-            console.log(list);
             return (
               <LatestReleases
                 id={list.id}

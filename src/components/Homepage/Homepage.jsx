@@ -8,11 +8,12 @@ import LatestReleases from "./LatestReleases";
 import Videos from "./Videos";
 
 // Assets
-import { mancover, cover, dance, vibe3, vibe2 } from "./homepageimports.js";
+import { mancover, cover, dance, vibe3, vibe2, cruzzy1, cruzzy2, shayo } from "./homepageimports.js";
 import "./homepage.css";
 
 // Static data defined outside to prevent re-renders
 const RELEASES_DATA = [
+  { id: "shayo", title: "Shayo", cover: shayo, type: "Song" },
   { id: "justgettingstarted", title: "Just Getting Started", cover: cover, type: "Album" },
   { id: "man", title: "M.A.N", cover: mancover, type: "Song" },
   { id: "dance", title: "Dance", cover: dance, type: "Song" }
@@ -23,14 +24,14 @@ const Homepage = () => {
     <>
       {/* Hero Section */}
       <section className="img-container">
-        <img className="homepage-img" src={vibe2} alt="Hero Background" />
+        <img className="homepage-img" src={cruzzy1} alt="Hero Background" />
         <div className="homepage-textoverlay">
           <h2>
             <TypeWriterEffect
               textStyle={{ fontFamily: 'Manrope', fontSize: "50px", fontWeight: "900" }}
               startDelay={100}
               cursorColor="white"
-              text="Just Getting Started"
+              text="Shayo"
               typeSpeed={200}
               hideCursorAfterText={true}
             />
@@ -50,7 +51,7 @@ const Homepage = () => {
         <h2>ABOUT</h2>
         <div className="aboutsectiondivs">
           <div className="aboutsectionimg-div">
-            <img src={vibe3} alt="Cruzzy Vibe Profile" />
+            <img src={cruzzy2} alt="Cruzzy Vibe Profile" />
           </div>
 
           <div className="abouttext-div">

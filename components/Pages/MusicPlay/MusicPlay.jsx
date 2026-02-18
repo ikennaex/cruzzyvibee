@@ -3,9 +3,22 @@ import "./musicplay.css"
 import {spotify, youtube, deezer, applemusic, amazon, audiomack, pandora} from "./musicplayImports"
 import {cover, dance, mancover, superman} from "../../Homepage/homepageimports"
 import { useParams } from 'react-router'
+import { shayo } from '../../../src/components/Homepage/homepageimports'
 
 const MusicPlay = () => {
     const [music, setMusic]  = useState([
+        {
+            id: "shayo",
+            title: "Shayo",
+            image: shayo,
+            spotify: "https://open.spotify.com/album/0KaUlxWjU0GrSkbchO2HOd",
+            audiomack: "https://audiomack.com/cruzzyvibee/album/just-getting-started-1",
+            applemusic: "https://music.apple.com/us/album/just-getting-started/1633596797",
+            amazon: "https://music.amazon.com/albums/B0B624126R",
+            deezer: "https://www.deezer.com/us/album/333864107?deferredFl=1",
+            pandora: "https://www.pandora.com/artist/cruzzy-vibee/just-getting-started/AL4g53vdrXPpJ7w",
+            youtube: "https://www.youtube.com/@cruzzyvibee"
+        },
         {
             id: "justgettingstarted",
             title: "Just Getting Started",
@@ -61,7 +74,6 @@ const MusicPlay = () => {
 
     const {id} = useParams();
     const newMusicArray = music.filter((music) => music.id === id)
-    console.log(newMusicArray)
 
   return (
     <div className='header-section musicplaydiv'>

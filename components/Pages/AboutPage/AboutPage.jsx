@@ -1,13 +1,14 @@
 import React from 'react'
 import { vibe1, vibe2, vibe3, vibe4, vibe5, vibe6 } from '../../Homepage/homepageimports';
 import "./aboutpage.css"
+import { cruzzy3 } from '../../../src/components/Homepage/homepageimports';
 
 const AboutPage = () => {
   return (
     <>
     <div className='aboutpage-maindiv'>
       <div className='aboutpage-imgdiv'>
-        <img src= {vibe1} alt="" />
+        <img src= {cruzzy3} alt="" />
       </div>
 
       <div className='aboutpage-textdiv'>

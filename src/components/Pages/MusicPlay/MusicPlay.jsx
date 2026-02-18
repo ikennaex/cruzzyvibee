@@ -1,11 +1,23 @@
 import React, { useState } from 'react'
 import "./musicplay.css"
 import {spotify, youtube, deezer, tidal, applemusic, amazon, audiomack, pandora} from "./musicplayImports"
-import {cover, dance, mancover, superman} from "../../Homepage/homepageimports"
+import {cover, dance, mancover, shayo, superman} from "../../Homepage/homepageimports"
 import { useParams } from 'react-router'
 
 const MusicPlay = () => {
     const [music, setMusic]  = useState([
+        {
+            id: "shayo",
+            title: "Shayo",
+            image: shayo,
+            spotify: "https://open.spotify.com/album/5Dktj1nLB2Ieo444eIqQxB?si=O1i3UhqZQnio3YCNKSuujw",
+            // audiomack: "https://audiomack.com/cruzzyvibee/album/just-getting-started-1",
+            applemusic: "https://music.apple.com/us/album/shayo/1871538160?i=1871538162",
+            // amazon: "https://music.amazon.com/albums/B0B624126R",
+            // deezer: "https://www.deezer.com/us/album/333864107?deferredFl=1",
+            // pandora: "https://www.pandora.com/artist/cruzzy-vibee/just-getting-started/AL4g53vdrXPpJ7w",
+            // youtube: "https://www.youtube.com/@cruzzyvibee"
+        },
         {
             id: "justgettingstarted",
             title: "Just Getting Started",

@@ -1,5 +1,5 @@
 import React from 'react'
-import { vibe1, vibe2, vibe3, vibe4, vibe5, vibe6 } from '../../Homepage/homepageimports';
+import { cruzzy1, cruzzy2, cruzzy3, vibe1, vibe2, vibe3, vibe4, vibe5, vibe6 } from '../../Homepage/homepageimports';
 import "./aboutpage.css"
 
 const AboutPage = () => {
@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
     <div className='aboutpage-maindiv'>
       <div className='aboutpage-imgdiv'>
-        <img src= {vibe1} alt="" />
+        <img src= {cruzzy3} alt="" />
       </div>
 
       <div className='aboutpage-textdiv'>
@@ -40,10 +40,13 @@ const AboutPage = () => {
       <h2>GALLERY</h2>
 
       <div className='galleyimg-div'>
+        <img src= {cruzzy1} alt="cruzzyvibee" />
+        <img src= {cruzzy2} alt="cruzzyvibee" />
+        <img src= {cruzzy3} alt="cruzzyvibee" />
         <img src= {vibe2} alt="cruzzyvibee" />
         <img className='vibe3' src= {vibe3} alt="cruzzyvibee" />
         {/* <img src= {vibe1} alt="cruzzyvibee" /> */}
-        <img className='wide-vibe5' src= {vibe4} alt="cruzzyvibee" />
+        {/* <img className='wide-vibe5' src= {vibe4} alt="cruzzyvibee" /> */}
         <img src= {vibe5} alt="cruzzyvibee" />
         <img className='wide-vibe6' src= {vibe6} alt="cruzzyvibee" />
       </div>

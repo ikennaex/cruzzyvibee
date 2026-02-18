@@ -40,3 +40,7 @@ a {
 a:link, a:visited {
   text-decoration: none;
 }
+
+.musicplaydiv {
+  height: 100vh;
+}
