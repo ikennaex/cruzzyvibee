@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
 
         <div className='links'>
-          <a href='https://instagram.com/cruzzywiththavibe?igshid=MzRlODBiNWFlZA==' target='_blank'>
+          <a href='https://www.instagram.com/cruzzywithavibe?igsh=ZGltdnRoaGx3Z2hs' target='_blank'>
             <AiOutlineInstagram className='instagram' size={30} />
           </a>
 
