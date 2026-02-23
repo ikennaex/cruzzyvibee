@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className='music-logos'>
           <a href="https://youtube.com/@cruzzyvibee?si=tTDBnRGnR6AXIieh" rel="noreferrer" target='_blank'> <AiFillYoutube size={30} /> </a>
-          <a href="https://instagram.com/cruzzywiththavibe?igshid=MzRlODBiNWFlZA==" rel="noreferrer" target='_blank'> <BsInstagram size={30} /> </a>
+          <a href="https://www.instagram.com/cruzzywithavibe?igsh=ZGltdnRoaGx3Z2hs" rel="noreferrer" target='_blank'> <BsInstagram size={30} /> </a>
           <a href="https://www.tiktok.com/@cruzzyvibee?_t=8gF8pzEzd1u&_r=1" rel="noreferrer" target='_blank' > <FaTiktok size={30} /> </a>
           <a href="https://spotify.link/uIjTx4VrDDb" rel="noreferrer" target='_blank' > <BsSpotify size={30} /> </a>
           <a href="https://music.apple.com/us/artist/cruzzy-vibee/1633596539" rel="noreferrer" target='_blank' > <SiApplemusic size={30} /> </a>
